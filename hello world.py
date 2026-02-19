@@ -5,28 +5,28 @@ ism="Abdurahim"
 familiya="Ergashev"
 #print("Mening ismim"+ism)
 #print("Mening ismim"+' '+ism)
-#print(ism)
-#print(familiya)
-#print(ism+' '+familiya)
-#print("Hello\tworld")
-#print (ism+' '+familiya)
-#print ("Hello\tworld")
-#ism_sharif=f"{ism} {familiya}"
-#print(ism_sharif)
-#print(ism_sharif.upper())
-#ism_sharif=ism_sharif.title()
-#print(ism_sharif)
-#avtolar = ['audi' ,'bmw' ,'ford' ,'lexus']
-#for avto in avtolar:
-  #  if avto == 'bmw' :
-   #     print(avto.upper())
-   # else: 
-       # print(avto.title())
-#login = input('Yangi login kiriting:\n>>>')
-#if len(login)<=8:
-  # print ("Login 8 ta harfdan ko`p bo`lishi shart!")    
-#else:
- #   print("Ko`d muvaffaqqiyatli amalga oshirildi")
+print(ism)
+print(familiya)
+print(ism+' '+familiya)
+print("Hello\tworld")
+print (ism+' '+familiya)
+print ("Hello\tworld")
+ism_sharif=f"{ism} {familiya}"
+print(ism_sharif)
+print(ism_sharif.upper())
+ism_sharif=ism_sharif.title()
+print(ism_sharif)
+avtolar = ['audi' ,'bmw' ,'ford' ,'lexus']
+for avto in avtolar:
+    if avto == 'bmw' :
+        print(avto.upper())
+    else: 
+        print(avto.title())
+login = input('Yangi login kiriting:\n>>>')
+if len(login)<=8:
+   print ("Login 8 ta harfdan ko`p bo`lishi shart!")    
+else:
+    print("Ko`d muvaffaqqiyatli amalga oshirildi")
 
 
 
