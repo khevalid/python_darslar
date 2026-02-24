@@ -1,0 +1,140 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Feb 21 13:09:48 2026
+
+@author: Abdu
+"""
+mevalar = {'olma': 10000, 'nok': 50000 , 'tarvuz':15000}
+#print(mevalar)
+#print(f"Olma narxi {mevalar['olma']} so`m")
+car = {'model': 'ferrari', 'rang': 'qizil'}
+#print (car['model'])
+#print (car['rang'])
+#talaba = {'ism': 'abdurahim', 'yosh':22, 't_yil':2004}
+#print(f"{talaba['ism'].title()},\
+# {talaba['t_yil']}-yilda tug`ilgan,\
+# {talaba['yosh']}yoshda")
+#talaba['kurs'] = 1
+#talaba['fakultet'] = 'asosiy business'
+#print(talaba)
+#talaba['ism'] = 'abdu'
+#print(talaba)
+#print (talaba)
+#print(talaba.items())
+
+#for key, value in talaba.items():
+#    print(f"Key: {key}")
+#    print(f"Value: {value}\n")
+mahsulotlar = {
+    'olma':10000,
+    'anor':20000,
+    'nok':25000,
+    'uzum':15000
+    }
+#print('Do`kondagi mahsulotlar:')
+#for mahsulot in sorted (mahsulotlar):
+#  print(mahsulot.title())
+#bozorlik = ('o`rik', 'shaftoli', 'nok', 'olma')
+#for mahsulot in mahsulotlar:
+# if mahsulot in bozorlik:
+  #print(f"{mahsulot.title()} {mahs"ulotlar[mahsulot]} so`m")
+ 
+#for buyum in bozorlik:
+  #  if buyum not in mahsulotlar:
+      #  print(f"Iltimos, do`koningizga {buyum} ham olib keling!")
+#print (mahsulotlar.values())
+#print ('Foydalanuvchilar quyidagi narxlarda mevani olishadi:')
+#for narx in mahsulotlar.values():
+#    print(narx)
+
+car0 = {
+        'model': 'lacetti' ,
+        'rang': 'qora' ,
+        'yili': 2015 ,
+        'narx': 12000 ,
+        'karobka':'avtomat'
+        }
+car1 = {
+        'model': 'nexia 3' ,
+        'rang': 'qizil' ,
+        'yili': 2010 ,
+        'narx': 11000 ,
+        'karobka': 'mexanika'
+        }
+car2 = {
+        'model': 'gentra' ,
+        'rang': 'oq' ,
+        'yili': 2010 ,
+        'narx': 12000 ,
+        'karobka': 'avtomat'
+        }
+car = car2
+#print (f"{car['model'].title()}, "
+#       f"{car['rang']} rang, "
+#       f"{car['yili']}-yil, {car['narx']}$")
+
+cars = [car0, car1,car2]
+#for car in cars:#
+#  print (f"{car['model'].title()}, "
+#         f"{car['rang']} rang, "
+#         f"{car['yili']}-yil, {car['narx']}$")    
+#print (f"{cars[2] ['rang'].title()} "
+#       f"{cars[2] ['model']}")
+
+malibus=[]
+for n in range(10):
+    new_car = {
+        "model": 'malibu' ,
+        'rang': None, 
+        'yil': 2020 ,
+        'narx': None ,
+        'km': 0 ,
+        'karobka': 'avto'
+        }
+    malibus.append(new_car)
+#print(malibus)
+#for malibu in malibus:
+#    print(malibu)
+#for malibu in malibus[:3]:
+#    malibu['rang']='qizil'
+#for malibu in malibus:
+#    print(malibu)
+#for malibu in malibus[6:]:
+#    malibu['rang']='qora'
+#    malibu['karobka']='mexanika'
+#for malibu in malibus:
+     #print(malibu)  
+#for malibu in malibus:
+#    if malibu['karobka']=='avto':
+#        malibu['narx']=40000
+#    else:
+#        malibu['narx']=35500
+#for malibu in malibus:
+    #print(malibu)
+dasturchilar = {
+    'ali':['python' , 'c++'],
+    'vali':['html' , 'css'],
+    'jasur':['php' , 'python'],
+    'xoshim':['phtyon' , 'c#']
+    }
+
+for ism, tillar in dasturchilar.items():
+    print(f"\n{ism.title()} quyidagi dasturlash tillarni biladi!")
+    for til in tillar:
+        print(til.upper())
+
+for ism, tillar in dasturchilar.items():
+    print(f"\n{ism.title()} quyidagi dasturlash tillarini biladi!")
+    for til in tillar:
+        print(f'{til.upper()} ' , end='')
+
+
+
+
+
+
+
+
+
+

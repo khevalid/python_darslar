@@ -17,17 +17,16 @@ print(ism_sharif.upper())
 ism_sharif=ism_sharif.title()
 print(ism_sharif)
 avtolar = ['audi' ,'bmw' ,'ford' ,'lexus']
-for avto in avtolar:
-    if avto == 'bmw' :
-        print(avto.upper())
-    else: 
-        print(avto.title())
-login = input('Yangi login kiriting:\n>>>')
-if len(login)<=8:
-   print ("Login 8 ta harfdan ko`p bo`lishi shart!")    
-else:
-    print("Ko`d muvaffaqqiyatli amalga oshirildi")
-
+#for avto in avtolar:
+   # if avto == 'bmw' :
+ #       print(avto.upper())
+  # # else: 
+  #      print(avto.title())
+#login = input('Yangi login kiriting:\n>>>')
+#if len(login)<=8:
+ #  print ("Login 8 ta harfdan ko`p bo`lishi shart!")    
+#else:
+  #  print("Ko`d muvaffaqqiyatli amalga oshirildi")
 
 
 #yil = int (input("Tug`ilgan yilingizni kiriting!:\n>>>"))
@@ -36,16 +35,21 @@ else:
   #  print("Kirish mumkin emas!!!")
 #else:
    # print('Xush kelibsiz!')
-yosh = int(input("Yoshingiz nechchida?\n>>>>"))
-if yosh<=4:
-  narx = 0
-elif yosh<=12:
-  narx = 5000
-elif yosh<=18:
-  narx = 10000
-else:
-  narx = 12000
-print(f"Sizga kirish {narx} so`m")
+yosh = int(input("Yoshingiz nechchida?\n>>>>"))\
+#if yosh<=4:
+#  narx = 0
+#elif yosh<=12:
+#  narx = 5000
+#elif yosh<=18:
+#  narx = 10000
+#else:
+#  narx = 12000
+#print(f"Sizga kirish {narx} so`m")
+
+mevalar = {'olma':15000, 'tarvuz':10000, 'nok':5000}
+
+
+
 
 
    
