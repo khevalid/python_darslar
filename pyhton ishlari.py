@@ -93,26 +93,28 @@ for n in range(10):
         'karobka': 'avto'
         }
     malibus.append(new_car)
-#print(malibus)
-#for malibu in malibus:
-#    print(malibu)
-#for malibu in malibus[:3]:
-#    malibu['rang']='qizil'
-#for malibu in malibus:
-#    print(malibu)
-#for malibu in malibus[6:]:
-#    malibu['rang']='qora'
-#    malibu['karobka']='mexanika'
-#for malibu in malibus:
-     #print(malibu)  
-#for malibu in malibus:
-#    if malibu['karobka']=='avto':
-#        malibu['narx']=40000
-#    else:
-#        malibu['narx']=35500
-#for malibu in malibus:
+print(malibus)
+for malibu in malibus:
+    print(malibu)
+for malibu in malibus[:3]:
+    malibu['rang']='qizil'
+for malibu in malibus:
+    print(malibu)
+for malibu in malibus[6:]:
+    malibu['rang']='qora'
+    malibu['karobka']='mexanika'
+for malibu in malibus:
+     print(malibu)  
+for malibu in malibus:
+    if malibu['karobka']=='avto':
+        malibu['narx']=40000
+    else:
+        malibu['narx']=35500
+for malibu in malibus:
     #print(malibu)
-dasturchilar = {
+# %%
+
+ dasturchilar = {
     'ali':['python' , 'c++'],
     'vali':['html' , 'css'],
     'jasur':['php' , 'python'],
@@ -122,19 +124,69 @@ dasturchilar = {
 for ism, tillar in dasturchilar.items():
     print(f"\n{ism.title()} quyidagi dasturlash tillarni biladi!")
     for til in tillar:
-        print(til.upper())
+     print(til.upper())
 
 for ism, tillar in dasturchilar.items():
     print(f"\n{ism.title()} quyidagi dasturlash tillarini biladi!")
     for til in tillar:
-        print(f'{til.upper()} ' , end='')
+       print(f'{til.upper()} ' , end='')
+# %%
+
+ism = input('Ismingiz nima?\n>>>')
+savol = f'Salom, {ism.title()}. Yoshingiz nechida?\n>>>'
+yosh = input(savol)
+yosh = int(yosh)
+height = input ("Bo`yingiz necha metr?\n>>> ")
+height = float(height)
+# %%
+#son = 1
+#while son<=5:
+#    print(son, end=' ')
+#    son = son + 1 
+#print('Dars tugadi')
+
+#savol = "Istalgan sonni kiriting!"
+#savol += "(dasturni to`xtatish uchun 'exit' deb yozing!):\n>>> "
+#qiymat = ''
+#while qiymat != 'exit':
+#    qiymat = input(savol)
+#print('Dastur tugatildi!')
+
+#sonlar = list(range(1,11))
+#for son in sonlar:
+#    if son == 6:
+#        continue
+#    print(f"{son} ning kvadrati {son**2} ga teng! ")
 
 
+son = 0 
+while son<10:
+    son += 1
+    if son%2==0:
+     continue
+    else:
+     print(son)
+     
+     
+     
 
 
+    
 
-
-
-
-
-
+      
+      
+      
+      
+     
+        
+     
+        
+     
+        
+     
+        
+     
+        
+     
+        
+     
