@@ -166,13 +166,76 @@ while son<10:
      continue
     else:
      print(son)
+# %%
      
+print("Yaqin do`stlaringizni ro`yxatini tuzamiz!")
+ismlar = []
+n = 1 
+while True:
+    savol = f"{n}-do`stingizni kiriting:\n>"
+    ism = input(savol)
+    ismlar.append(ism)
+    takrorlash = input("Yana ism qo`shasizmi? (ha/yo`q)\n>")
+    n+=1 
+    if takrorlash != 'ha':
+        break
      
-     
-
-
+print("Yaqin do`stlaringiz ro`yxati:")
+for ism in ismlar:
+    print(ism.title())
+# %%
     
+print("Do`stlaringizni yoshini saqlaymiz!")
+dostlar = {}
+ishora = True
+while ishora:
+    ism = input("Do`stingizni ismini kiriting:\n>")
+    yosh = input(f"{ism.title()}ning yoshini kiriting:\n>")
+    dostlar[ism] = int(yosh)
+    
+    javob = input("Yana malumot qo`shasizmi? (ha/yo`q)\n>")
+    if javob == "yo`q":
+        ishora = False
+for ism, yosh in dostlar.items():
+    print(f"{ism.title()} {yosh} yoshda")
+     
+# %%
 
+cars = ['lacetti', 'matiz', 'nexia', 'lacetti', 'matiz', 'nexia']
+car = 'nexia'
+while car in cars:
+    cars.remove(car)
+print (cars)
+# %%
+
+talabalar = ['hasan', 'ali', 'abdurahim', 'suxrob']
+baholangan_talabalar = {}
+while talabalar:
+    talaba = talabalar.pop()
+    baho = input(f"{talaba.title()}ning bahosini kiriting!\n>")
+    print(f"{talaba.title()} bahonlandi!")
+    baholangan_talabalar[talaba] = int(baho)
+
+# %%
+def salom_ber():
+    """Salom beruvchi funksiya"""
+    print("Assalomu alekum")
+salom_ber()
+# %%
+
+def salom_ber(ism):
+    """Foydalanuvchining ismini qabul qilib,
+    unga salom beruvchi funksiya"""
+    print(f"Assalomu alekum, hurmatli {ism.title()}!")
+salom_ber('abdurahim')
+# %%
+
+def yosh_hisobla(ism, tugilgan_yil):
+    """Foydalanuvchining yoshini hisoblaydigan funksiya"""
+    print(f"{ism.title()} {2026-tugilgan_yil} yoshda")
+yosh_hisobla('abdurahim', 2004)
+yosh_hisobla('xojiakbar', 2003)
+yosh_hisobla(tugilgan_yil= 2003, ism='xojiakbar')
       
       
       
