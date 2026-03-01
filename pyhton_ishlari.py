@@ -258,20 +258,8 @@ def bahola(ismlar):
 talabalar =['ali', 'vali', 'jamshid', 'abdurahim']
 baholar = bahola(talabalar[:])
 print(baholar)
-# %%
 
-def summa(*sonlar):
-    """Kritilgan sonlar yig`indisini hisoblaydigan funksiya"""
-    yigindi = 0 
-    for son in sonlar:
-        yigindi += son
-    return yigindi
-print(summa(1,2))
-print(summa(100,300,455,233))
-print(summa(0))
-      
 # %%
-
 def avto_info(kompaniya,model,**malumotlar):
     """Avto haqidagi ma`lumotlarni lug`at 
     ko`rinishida qaytaruvchi funksiya"""
@@ -281,6 +269,7 @@ def avto_info(kompaniya,model,**malumotlar):
 avto1= avto_info("GM", "malibu", rang='qora', yil=2018)
 avto2= avto_info("Kia", "K5", rang='qizil', narh=15000, yil=2015)
 print(avto2)
+      
 
       
       

@@ -47,6 +47,11 @@ yosh = int(input("Yoshingiz nechchida?\n>>>>"))\
 #print(f"Sizga kirish {narx} so`m")
 
 mevalar = {'olma':15000, 'tarvuz':10000, 'nok':5000}
+# %%
+
+import pyhton_ishlari
+avto1 = pyhton_ishlari.avto_info("GM", "Malibu", "Qora", "avtomat", 2018,)
+pyhton_ishlari.info_print(avto1)
 
 
 
